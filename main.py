@@ -16,7 +16,7 @@ import sys
 def main() -> int:
     repo_root = Path(__file__).resolve().parent
     src = repo_root / "Assignment_2" / "figures"
-    dst = repo_root / "Assignment_2" / "TexReport" / "overleaf" / "figures"
+    dst = repo_root / "Assignment_2" / "TexReport" / "figures"
 
     if not src.exists():
         print(f"Source not found: {src}", file=sys.stderr)
